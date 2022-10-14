@@ -17,6 +17,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiNI.Example.MvcWeb.Templat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiNI.Example.RazorPageWeb.Template", "ProjectStructureDemo\MiNI.Example.RazorPageWeb.Template\MiNI.Example.RazorPageWeb.Template.csproj", "{8865261A-36AE-49D8-9CF4-18EB85C4E513}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{8C21C928-70A9-41D2-BE3A-39918DBA0058}"
+	ProjectSection(SolutionItems) = preProject
+		ProjectStructureDemo\readme.md = ProjectStructureDemo\readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiNI.Example.MvcOldWeb.Template", "ProjectStructureDemo\MiNI.Example.MvcOldWeb.Template\MiNI.Example.MvcOldWeb.Template\MiNI.Example.MvcOldWeb.Template.csproj", "{D418E580-6345-4418-88D2-89D20806DF75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +57,10 @@ Global
 		{8865261A-36AE-49D8-9CF4-18EB85C4E513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8865261A-36AE-49D8-9CF4-18EB85C4E513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8865261A-36AE-49D8-9CF4-18EB85C4E513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D418E580-6345-4418-88D2-89D20806DF75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D418E580-6345-4418-88D2-89D20806DF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D418E580-6345-4418-88D2-89D20806DF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D418E580-6345-4418-88D2-89D20806DF75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{654BFA0E-7E3D-4B89-9313-D5219487E5DF} = {59A2E010-F22C-4832-B429-F375629A9C96}
@@ -58,5 +69,6 @@ Global
 		{D297DD73-2A27-4468-BC22-FB5F6AC60F3F} = {59A2E010-F22C-4832-B429-F375629A9C96}
 		{80A91A47-5E5E-49F3-8119-4FB024668E7C} = {59A2E010-F22C-4832-B429-F375629A9C96}
 		{8865261A-36AE-49D8-9CF4-18EB85C4E513} = {59A2E010-F22C-4832-B429-F375629A9C96}
+		{D418E580-6345-4418-88D2-89D20806DF75} = {59A2E010-F22C-4832-B429-F375629A9C96}
 	EndGlobalSection
 EndGlobal
