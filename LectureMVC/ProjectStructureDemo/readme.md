@@ -5,8 +5,8 @@ In this solution will show all of the things that was describe on lecture. Here 
 
 ## What you can find here
 
-- [MVC Template project .Net 6.0](#MVC-Template-project-.Net-6.0)
-
+- [MVC Template project .Net 6.0](#mvc-template-project-net-60)
+- [MVC Template project .Net 5.0](#mvc-template-project-net-50)
 
 
 
@@ -32,3 +32,4 @@ Use:
   * it has minimal configuration approach
   * all added middlewares will be add on the end of the middleware queue
 
+## MVC Template project .Net 5.0
